@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "even_massives", "even_massi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "index_of_max", "index_of_max\index_of_max.csproj", "{FCE80A86-DF86-427A-B899-F6383179A233}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "element_count", "element_count\element_count.csproj", "{FE46F303-67EE-45A0-819B-1B3D26E757D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{FCE80A86-DF86-427A-B899-F6383179A233}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCE80A86-DF86-427A-B899-F6383179A233}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCE80A86-DF86-427A-B899-F6383179A233}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE46F303-67EE-45A0-819B-1B3D26E757D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE46F303-67EE-45A0-819B-1B3D26E757D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE46F303-67EE-45A0-819B-1B3D26E757D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE46F303-67EE-45A0-819B-1B3D26E757D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
