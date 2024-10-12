@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kontur_school", "kontur_sch
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "even_massives", "even_massives\even_massives.csproj", "{E018015F-88B7-44BC-99CB-A2F366CDCFC6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "index_of_max", "index_of_max\index_of_max.csproj", "{FCE80A86-DF86-427A-B899-F6383179A233}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{E018015F-88B7-44BC-99CB-A2F366CDCFC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E018015F-88B7-44BC-99CB-A2F366CDCFC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E018015F-88B7-44BC-99CB-A2F366CDCFC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCE80A86-DF86-427A-B899-F6383179A233}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCE80A86-DF86-427A-B899-F6383179A233}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCE80A86-DF86-427A-B899-F6383179A233}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCE80A86-DF86-427A-B899-F6383179A233}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
