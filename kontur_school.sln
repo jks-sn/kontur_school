@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kontur_school", "kontur_school\kontur_school.csproj", "{915DAB8A-9C6E-4F4D-BF8E-3C3BC5998E99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "even_massives", "even_massives\even_massives.csproj", "{E018015F-88B7-44BC-99CB-A2F366CDCFC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{915DAB8A-9C6E-4F4D-BF8E-3C3BC5998E99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{915DAB8A-9C6E-4F4D-BF8E-3C3BC5998E99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{915DAB8A-9C6E-4F4D-BF8E-3C3BC5998E99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{915DAB8A-9C6E-4F4D-BF8E-3C3BC5998E99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E018015F-88B7-44BC-99CB-A2F366CDCFC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E018015F-88B7-44BC-99CB-A2F366CDCFC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E018015F-88B7-44BC-99CB-A2F366CDCFC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E018015F-88B7-44BC-99CB-A2F366CDCFC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
