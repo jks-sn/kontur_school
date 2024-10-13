@@ -8,6 +8,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "index_of_max", "index_of_ma
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "element_count", "element_count\element_count.csproj", "{FE46F303-67EE-45A0-819B-1B3D26E757D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "taro_cards", "taro_cards\taro_cards.csproj", "{916C5B66-AFC2-41A1-BD6F-DE56DB50DACC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "null_or_notnull", "null_or_notnull\null_or_notnull.csproj", "{815F21B4-BC7E-400A-9FD5-7291B3F6AAD7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,13 @@ Global
 		{FE46F303-67EE-45A0-819B-1B3D26E757D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE46F303-67EE-45A0-819B-1B3D26E757D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE46F303-67EE-45A0-819B-1B3D26E757D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{916C5B66-AFC2-41A1-BD6F-DE56DB50DACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{916C5B66-AFC2-41A1-BD6F-DE56DB50DACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{916C5B66-AFC2-41A1-BD6F-DE56DB50DACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{916C5B66-AFC2-41A1-BD6F-DE56DB50DACC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{815F21B4-BC7E-400A-9FD5-7291B3F6AAD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{815F21B4-BC7E-400A-9FD5-7291B3F6AAD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{815F21B4-BC7E-400A-9FD5-7291B3F6AAD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{815F21B4-BC7E-400A-9FD5-7291B3F6AAD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
