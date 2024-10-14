@@ -18,6 +18,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "histogram", "massives\histo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stranger_cipher", "collections_strings_files\stranger_cipher\stranger_cipher.csproj", "{3DD6DBD7-0107-450F-8C64-6F4EA2EA8F07}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "useful_acquaintances", "collections_strings_files\useful_acquaintances\useful_acquaintances.csproj", "{3567F123-7609-4A62-A37D-DA68D40A5988}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "benford_law", "collections_strings_files\benford_law\benford_law.csproj", "{52C48420-3706-4716-8023-BFF0F47EEC15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "split_and_join", "collections_strings_files\split_and_join\split_and_join.csproj", "{2E441898-6F9D-41C0-945C-C51F03ED1DDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stranger_again", "collections_strings_files\stranger_again\stranger_again.csproj", "{7E932588-40CD-4B20-B7B0-4FC27E154F29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "text_analysis", "collections_strings_files\text_analysis\text_analysis.csproj", "{4308F72D-D76F-497F-9DB9-65FE1B45AA5B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +70,25 @@ Global
 		{3DD6DBD7-0107-450F-8C64-6F4EA2EA8F07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DD6DBD7-0107-450F-8C64-6F4EA2EA8F07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DD6DBD7-0107-450F-8C64-6F4EA2EA8F07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3567F123-7609-4A62-A37D-DA68D40A5988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3567F123-7609-4A62-A37D-DA68D40A5988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3567F123-7609-4A62-A37D-DA68D40A5988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3567F123-7609-4A62-A37D-DA68D40A5988}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52C48420-3706-4716-8023-BFF0F47EEC15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52C48420-3706-4716-8023-BFF0F47EEC15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52C48420-3706-4716-8023-BFF0F47EEC15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52C48420-3706-4716-8023-BFF0F47EEC15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E441898-6F9D-41C0-945C-C51F03ED1DDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E441898-6F9D-41C0-945C-C51F03ED1DDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E441898-6F9D-41C0-945C-C51F03ED1DDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E441898-6F9D-41C0-945C-C51F03ED1DDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E932588-40CD-4B20-B7B0-4FC27E154F29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E932588-40CD-4B20-B7B0-4FC27E154F29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E932588-40CD-4B20-B7B0-4FC27E154F29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E932588-40CD-4B20-B7B0-4FC27E154F29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4308F72D-D76F-497F-9DB9-65FE1B45AA5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4308F72D-D76F-497F-9DB9-65FE1B45AA5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4308F72D-D76F-497F-9DB9-65FE1B45AA5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4308F72D-D76F-497F-9DB9-65FE1B45AA5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
