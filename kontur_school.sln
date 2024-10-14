@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "arr_to_pow", "arr_to_pow\ar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tic_tac_toe", "tic_tac_toe\tic_tac_toe.csproj", "{64FB685C-F10B-42E2-8072-32FAC4C6E30C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "histogram", "histogram\histogram.csproj", "{A717D919-794E-4504-9B5D-CB23A7D63096}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{64FB685C-F10B-42E2-8072-32FAC4C6E30C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64FB685C-F10B-42E2-8072-32FAC4C6E30C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64FB685C-F10B-42E2-8072-32FAC4C6E30C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A717D919-794E-4504-9B5D-CB23A7D63096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A717D919-794E-4504-9B5D-CB23A7D63096}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A717D919-794E-4504-9B5D-CB23A7D63096}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A717D919-794E-4504-9B5D-CB23A7D63096}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
