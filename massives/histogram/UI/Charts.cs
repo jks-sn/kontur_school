@@ -79,4 +79,51 @@ internal static class Charts
 		MainWindow.Tabs.Add(new TabItemModel(title, model));
 		MainWindow.w.InitializeComponent();
 	}
+	public static void ShowLineChart(int[] xValues, double[] yValues, string title)
+	{
+		var model = new PlotModel { Title = title };
+		
+		var xAxis = new LinearAxis
+		{
+			Position = AxisPosition.Bottom,
+			Title = "Год",
+			Minimum = xValues.Min(),
+			Maximum = xValues.Max(),
+			MajorGridlineStyle = LineStyle.Solid,
+			MinorGridlineStyle = LineStyle.Dot,
+			MajorStep = 5,
+		};
+
+		var yAxis = new LinearAxis
+		{
+			Position = AxisPosition.Left,
+			Title = "Средняя длина имени",
+			Minimum = 0,
+			MajorGridlineStyle = LineStyle.Solid,
+			MinorGridlineStyle = LineStyle.Dot,
+		};
+
+		model.Axes.Add(xAxis);
+		model.Axes.Add(yAxis);
+
+		var lineSeries = new LineSeries
+		{
+			Title = "Средняя длина имени",
+			MarkerType = MarkerType.Circle,
+			MarkerSize = 4,
+			MarkerStroke = OxyColors.DarkBlue,
+			LineStyle = LineStyle.Solid,
+			StrokeThickness = 2
+		};
+
+		for (int i = 0; i < xValues.Length; i++)
+		{
+			lineSeries.Points.Add(new DataPoint(xValues[i], yValues[i]));
+		}
+
+		model.Series.Add(lineSeries);
+
+		MainWindow.Tabs.Add(new TabItemModel(title, model));
+		MainWindow.w.InitializeComponent();
+	}
 }

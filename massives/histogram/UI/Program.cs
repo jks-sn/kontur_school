@@ -30,9 +30,8 @@ public static class Program
 			"Рождаемость людей с именем Юрий");
 		Charts.ShowHistogram(HistogramTask.GetBirthsPerDayHistogram(namesData, "владимир"),
 			"Рождаемость людей с именем Владимир");
-		//CreativityTask.ShowYourStatistics(namesData);
+		CreativityTask.ShowAverageNameLengthPerYear(namesData);
 	}
-
 
 	private static NameData[] ReadData()
 	{
