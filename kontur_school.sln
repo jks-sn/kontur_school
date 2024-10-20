@@ -28,6 +28,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stranger_again", "collectio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "text_analysis", "collections_strings_files\text_analysis\text_analysis.csproj", "{4308F72D-D76F-497F-9DB9-65FE1B45AA5B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "quoted_fields", "testing\quoted_fields\quoted_fields.csproj", "{8B914A4C-21E3-404C-AE2C-EB4AEB0CE18E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -90,5 +92,9 @@ Global
 		{4308F72D-D76F-497F-9DB9-65FE1B45AA5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4308F72D-D76F-497F-9DB9-65FE1B45AA5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4308F72D-D76F-497F-9DB9-65FE1B45AA5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B914A4C-21E3-404C-AE2C-EB4AEB0CE18E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B914A4C-21E3-404C-AE2C-EB4AEB0CE18E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B914A4C-21E3-404C-AE2C-EB4AEB0CE18E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B914A4C-21E3-404C-AE2C-EB4AEB0CE18E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
