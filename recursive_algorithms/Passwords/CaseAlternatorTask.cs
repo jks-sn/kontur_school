@@ -1,3 +1,6 @@
+using System;
+using System.Collections.Generic;
+
 namespace Passwords;
 
 public class CaseAlternatorTask
@@ -5,42 +8,41 @@ public class CaseAlternatorTask
 	public static List<string> AlternateCharCases(string lowercaseWord)
 	{
 		var result = new List<string>();
-		AlternateCharCases(lowercaseWord.ToCharArray(), 0, result);
+		AlternateCharCasesRecursive(lowercaseWord.ToCharArray(), 0, result);
 		result.Sort((a, b) => string.CompareOrdinal(b, a));
 		return result;
 	}
 
-	static void AlternateCharCases(char[] word, int startIndex, List<string> result)
+	private static void AlternateCharCasesRecursive(char[] word, int index, List<string> result)
 	{
-		if (startIndex == word.Length)
+		if (index == word.Length)
 		{
 			result.Add(new string(word));
 			return;
 		}
 
-		var c = word[startIndex];
-		if (char.IsLetter(c))
+		foreach (var c in GetPossibleCases(word[index]))
 		{
-			var lower = char.ToLower(c);
-			var upper = char.ToUpper(c);
+			word[index] = c;
+			AlternateCharCasesRecursive(word, index + 1, result);
+		}
+	}
+	
+	private static IEnumerable<char> GetPossibleCases(char c)
+	{
+		if (!char.IsLetter(c))
+		{
+			yield return c;
+			yield break;
+		}
 
-			if (lower == upper)
-			{
-				word[startIndex] = lower;
-				AlternateCharCases(word, startIndex + 1, result);
-			}
-			else
-			{
-				word[startIndex] = upper;
-				AlternateCharCases(word, startIndex + 1, result);
-				
-				word[startIndex] = lower;
-				AlternateCharCases(word, startIndex + 1, result);
-			}
-		}
-		else
+		var lower = char.ToLower(c);
+		var upper = char.ToUpper(c);
+
+		if (lower != upper)
 		{
-			AlternateCharCases(word, startIndex + 1, result);
+			yield return upper;
 		}
+		yield return lower;
 	}
 }
