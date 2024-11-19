@@ -39,8 +39,8 @@ public static class ThresholdFilterTask
     private static double[,] CreateAllWhiteImage(int height, int width)
     {
         var allWhite = new double[height, width];
-        for (int y = 0; y < height; y++)
-            for (int x = 0; x < width; x++)
+        for (var y = 0; y < height; y++)
+            for (var x = 0; x < width; x++)
                 allWhite[y, x] = 1.0;
         return allWhite;
     }
@@ -54,13 +54,13 @@ public static class ThresholdFilterTask
 
     private static double[] GetAllPixelValues(double[,] original)
     {
-        int height = original.GetLength(0);
-        int width = original.GetLength(1);
-        double[] allPixelValues = new double[height * width];
-        int index = 0;
+        var height = original.GetLength(0);
+        var width = original.GetLength(1);
+        var allPixelValues = new double[height * width];
+        var index = 0;
 
-        for (int y = 0; y < height; y++)
-            for (int x = 0; x < width; x++)
+        for (var y = 0; y < height; y++)
+            for (var x = 0; x < width; x++)
                 allPixelValues[index++] = original[y, x];
 
         return allPixelValues;
@@ -68,13 +68,13 @@ public static class ThresholdFilterTask
 
     private static double[,] ApplyThresholdFilter(double[,] original, double threshold)
     {
-        int height = original.GetLength(0);
-        int width = original.GetLength(1);
-        double[,] filtered = new double[height, width];
+        var height = original.GetLength(0);
+        var width = original.GetLength(1);
+        var filtered = new double[height, width];
 
-        for (int y = 0; y < height; y++)
+        for (var y = 0; y < height; y++)
         {
-            for (int x = 0; x < width; x++)
+            for (var x = 0; x < width; x++)
             {
                 filtered[y, x] = original[y, x] >= threshold ? 1.0 : 0.0;
             }

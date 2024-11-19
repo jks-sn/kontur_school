@@ -21,28 +21,34 @@ public class CaseAlternatorTask
 			return;
 		}
 
-		foreach (var c in GetPossibleCases(word[index]))
+		var possibleChars = GetPossibleCases(word[index]);
+
+		foreach (var c in possibleChars)
 		{
 			word[index] = c;
 			AlternateCharCasesRecursive(word, index + 1, result);
 		}
 	}
-	
-	private static IEnumerable<char> GetPossibleCases(char c)
+
+	private static List<char> GetPossibleCases(char c)
 	{
-		if (!char.IsLetter(c))
-		{
-			yield return c;
-			yield break;
-		}
+		var cases = new List<char>();
 
-		var lower = char.ToLower(c);
-		var upper = char.ToUpper(c);
-
-		if (lower != upper)
+		if (char.IsLetter(c))
 		{
-			yield return upper;
+			var lower = char.ToLower(c);
+			var upper = char.ToUpper(c);
+
+			if (lower != upper)
+			{
+				cases.Add(upper);
+			}
+			cases.Add(lower);
 		}
-		yield return lower;
+		else
+		{
+			cases.Add(c);
+		}
+		return cases;
 	}
 }

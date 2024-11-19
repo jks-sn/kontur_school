@@ -9,14 +9,14 @@ internal static class MedianFilterTask
     {
         var height = original.GetLength(0);
         var width = original.GetLength(1);
-        double[,] filtered = new double[height, width];
+        var filtered = new double[height, width];
 
-        for (int y = 0; y < height; y++)
+        for (var y = 0; y < height; y++)
         {
-            for (int x = 0; x < width; x++)
+            for (var x = 0; x < width; x++)
             {
-                var neighborhoods = getNeigbourhoods(original, x, y, width, height);
-                double median = CalculateMedian(neighborhoods);
+                var neighborhoods = GetNeighbourhoods(original, x, y);
+                var median = CalculateMedian(neighborhoods);
                 filtered[y, x] = median;
             }
         }
@@ -25,8 +25,11 @@ internal static class MedianFilterTask
     }
 
 
-    private static List<double> getNeigbourhoods(double[,] original, int x, int y, int width, int height)
+    private static List<double> GetNeighbourhoods(double[,] original, int x, int y)
     {
+        var height = original.GetLength(0);
+        var width = original.GetLength(1);
+        
         var neighborhoods = new List<double>();
                 
         var yStart = Math.Max(y - 1, 0);
